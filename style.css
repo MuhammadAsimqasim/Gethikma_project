@@ -1,0 +1,1676 @@
+@font-face {
+    font-family: poppin-semiBold;
+    src: url("./font/Poppins-SemiBold.ttf");
+
+}
+@font-face{
+   font-family: Poppins-Bold;
+   src: url("./font/Poppins-Bold.ttf");
+}
+@font-face{
+    font-family: Poppins-Regular;
+     src: url("./font/Poppins-Regular.ttf");
+ }
+ @font-face{
+    font-family: Poppins-Medium;
+     src: url("./font/Poppins-medium.ttf");
+ }
+ .btn-primary {
+    --bs-btn-color: #21047C;
+    --bs-btn-bg: #21047C;
+    --bs-btn-border-color: #21047C;
+    --bs-btn-hover-color: #21047C;
+    --bs-btn-hover-bg: #21047C;
+    --bs-btn-hover-border-color: #21047C;
+    --bs-btn-focus-shadow-rgb: 49,132,253;
+    --bs-btn-active-color: #21047C;
+    --bs-btn-active-bg: #21047C;
+    --bs-btn-active-border-color: #21047C;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #21047C;
+    --bs-btn-disabled-bg: #21047C;
+    --bs-btn-disabled-border-color: #21047C;
+}
+.section {
+    padding: 100px 0;
+}
+.section .section-content {
+    position: relative;
+}
+.section .section-content .start-small-circle{
+    height: 70px;
+    width: 70px;
+    position: absolute;
+    z-index: -1;
+    top: -20px;
+    left: -20px;
+}
+.section .section-content .end-small-circle{
+    height: 70px;
+    width: 70px;
+    position: absolute;
+    z-index: -1;
+    top: -20px;
+    right: -20px;
+}
+.section .section-content h1 {
+    font-family: Poppins-Bold;
+    color: #21047C;
+    font-size: 35px;
+    margin: 0;
+    position: relative;
+}
+.section .section-content p {
+    font-family: Poppins-Regular;
+    font-size: 16px;
+    margin: 25px 0 0 0;
+}
+.margin-left-50 {
+    margin-left: 50px;
+}
+.margin-right-50 {
+    margin-right: 50px;
+}
+/* --------------------------------------------------NAVBAR--------------------------------------------------------------------------- */
+.navbar .navbar-brand {
+    padding: 0;
+}
+.navbar-brand img {
+    height: 56px;
+    width: 250px;
+}
+.header-background-image{
+    position: absolute;
+    z-index: -1;
+    height: 1000px;
+    width: 1200px;
+}
+.nav-item .nav-link {
+    font-family: poppin-semiBold;
+    font-size: 20px;
+    color: black;
+}
+.navbar-nav li a:hover{
+    color: #FF0074;
+}
+.navbar-nav .nav-item.active .nav-link {
+    color: #FF0074;
+}
+.active-link {
+    color: #FF0074;
+}
+/* --------------------------------------------------Section1--------------------------------------------------------------------------- */
+.header-section-content-container {
+    padding: 100px 0;
+}
+/* .header-section-content-container .header-section-content {} */
+.header-section-content-container .header-section-content h1 {
+    margin: 0;
+    font-family: Poppins-Bold;
+    color: #21047C;
+    font-size: 35px;
+}
+.header-section-content-container .header-section-content p {
+    margin: 25px 0;
+    font-family: Poppins-Regular;
+    font-size: 20px;
+    color: black;
+}
+.header-section-content-container .header-section-content .button {
+    background-color: #21047C;
+    height: 50px;
+    min-width: 190px;
+    border: 1px solid #21047C;
+    border-radius: 5px;
+    color: white;
+    font-size: 18px;
+    font-family: Poppins-Regular;
+}
+.header-section-content-container .header-section-content .button a{
+    text-decoration: none;
+    color: white;
+}
+/* .header-section-content-container .header-section-image {} */
+.header-section-content-container .header-section-image img {
+    /* height: 400px; */
+    width: 400px;
+    object-fit: contain;
+
+}
+/* --------------------------------------------------Section2--------------------------------------------------------------------------- */
+.whats-is-container {
+    padding: 0 0 100px;
+}
+.div_margin_top{
+    margin-top: 430px;
+}
+.Section2-right-side-image{
+    position: relative;
+}
+.Section2-right-side-image .squre{
+    width: 580px;
+    height: 500px;
+    border-radius: 40px;
+    background-color: rgba(32, 187, 45, 0.10);
+    position: relative;
+}
+.Section2-right-side-image .male-image{
+    position: absolute;
+    margin-top: 150px;
+    height: 300px;
+    z-index: 1;
+    width: 450px;
+    left: -110px;
+    bottom: 0;
+}
+.Section2-right-side-image .female-image{
+    position: absolute;
+    height: 300px;
+    width: 260px;
+    right: 50px;
+    bottom: 0;
+}
+.Section2-right-side-image .circle-image{
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    right: -150px;
+    top: -150px;
+    object-fit: contain;
+}
+.gethikma {
+    margin-top: 150px;
+}
+.gethikma .small-circle {
+    height: 74px;
+    width: 74px;
+    margin-top: -20px;
+    position: absolute;
+    z-index: -1;
+    margin-left: -30px;
+}
+.gethikma h1{
+    font-family: Poppins-Bold;
+    color: #21047C;
+    font-size: 35px;
+}
+.gethikma p{
+    font-family: Poppins-Regular;
+    font-size: 16px;
+    padding-top: 10px;
+    text-align: left;
+}
+.gethikma a{
+    font-family: Poppins-Regular;
+    text-decoration: none;
+}
+.gethikma .hikma-logo{
+    height: 50px;
+    width: 170px;
+}
+/* --------------------------------------------------Section3--------------------------------------------------------------------------- */
+.Section3-background-image{
+    position: relative;
+}
+.our-mission{
+    width: 100%;
+    left: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+    display: flex;
+    justify-content: center;
+    margin-top: -100px;
+}
+.Section3-heading h1{
+    font-family: Poppins-Bold;
+    display: flex;
+    justify-content: center;
+    color: #21047C;
+    font-size: 35px;
+    margin: 25px 0;
+}
+.Section3-heading p{
+    font-family: Poppins-Regular;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+
+}
+/* --------------------------------------------------Section4--------------------------------------------------------------------------- */
+.Section4-rghit-image{
+    position: relative;
+}
+.Section4-rghit-image .purple-circle{
+    height: 70px;
+    width: 70px;
+    position: absolute;
+    z-index: -1;
+    left: -30px;
+    top: 30px;
+}
+.Section4-rghit-image .mobile-image1{
+    width: 440px;
+    height: 500px;
+    margin: 50px 0;
+}
+.section-content .hikma-logo{
+    height: 50px;
+    width: 170px;
+}
+.section-content .right-image .Check-image{
+    height: 30px;
+    width: 30px;
+    margin: 15px 0px;
+}
+.section-content .right-contect p{
+    font-family: Poppins-Regular;
+    font-size: 16px;
+    margin: 10px 19px;
+}
+.anchor1{
+    text-decoration: none;
+    color: #21047C;
+    font-size: 20px;
+}
+.markiting-logo{
+    display: flex;
+}
+.Start_Learning{
+    margin: 15px 0;
+    font-size: 16px;
+    font-family: Poppins-Regular;
+}
+.markiting-logo .logo1 .apple-logo{
+    margin: 20px 0;
+    height: 60px;
+    width: 200px;
+}
+.markiting-logo .logo2 .apple-logo{
+    border-radius: 10px;
+    margin: 18px 10px;
+    height: 60px;
+    width: 200px;
+}
+.Section4-rghit-image .purple-circle1{
+    height: 70px;
+    width: 70px;
+    position: absolute;
+    z-index: -1;
+    right: 70px;
+    top: 180px;
+}
+/* --------------------------------------------------Section6--------------------------------------------------------------------------- */
+.box{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 9px;
+}
+.box1{
+    background-color: rgba(69, 175, 223, 0.10);
+    height: 150px;
+    width: 230px;
+    border-radius: 10px;
+    display: flex;
+    position: relative;
+    transition: 0.3s;
+}
+.box1 img{
+    position: absolute;
+    right: 20px;
+    top: 40px;
+    height: 80px;
+    width: 100px;
+}
+.box1 h6{
+    font-family: poppin-semiBold;
+    padding: 20px;
+    align-items: end;
+    display: flex;
+}
+.box2{
+    background-color: rgba(235, 77, 162, 0.10);
+    height: 150px;
+    width: 230px;
+    border-radius: 10px;
+    display: flex;
+    position: relative;
+    transition: 0.3s;
+}
+.box2 img{
+    position: absolute;
+    right: 20px;
+    top: 40px;
+    height: 80px;
+    width: 100px;
+}
+.box2 h6{
+    font-family: poppin-semiBold;
+    padding: 20px;
+    align-items: end;
+    display: flex;
+}
+.box3{
+    background-color: rgba(196, 106, 277, 0.10);
+    height: 150px;
+    width: 230px;
+    border-radius: 10px;
+    display: flex;
+    position: relative;
+    transition: 0.3s;
+}
+.box3 img{
+    position: absolute;
+    right: 20px;
+    top: 40px;
+    height: 80px;
+    width: 100px;
+}
+.box3 h6{
+    font-family: poppin-semiBold;
+    padding: 20px;
+    align-items: end;
+    display: flex;
+}
+.box4{
+    background-color: rgba(32, 187, 45, 0.10);
+    height: 150px;
+    width: 230px;
+    border-radius: 10px;
+    display: flex;
+    position: relative;
+    transition: 0.3s;
+}
+.box4 img{
+    position: absolute;
+    right: 20px;
+    top: 40px;
+    height: 80px;
+    width: 100px;
+}
+.box4 h6{
+    font-family: poppin-semiBold;
+    padding: 20px;
+    align-items: end;
+    display: flex;
+}
+.box5{
+    background-color: rgba(235, 156, 84, 0.10);
+    height: 150px;
+    width: 230px;
+    border-radius: 10px;
+    display: flex;
+    position: relative;
+    transition: 0.3s;
+    /* right: 125; */
+}
+.box5 img{
+    position: absolute;
+    right: 20px;
+    top: 40px;
+    height: 80px;
+    width: 100px;
+}
+.box5 h6{
+    font-family: poppin-semiBold;
+    padding: 20px;
+    align-items: end;
+    display: flex;
+}
+.box6{
+    background-color: rgba(248, 87, 106, 0.10);
+    height: 150px;
+    width: 230px;
+    border-radius: 10px;
+    display: flex;
+    position: relative;
+    transition: 0.3s;
+    top: 115px;
+}
+.box6 img{
+    position: absolute;
+    right: 20px;
+    top: 40px;
+    height: 80px;
+    width: 100px;
+}
+.box6 h6{
+    font-family: poppin-semiBold;
+    padding: 20px;
+    align-items: end;
+    display: flex;
+}
+.box1:hover,.box2:hover,.box3:hover,.box4:hover,.box5:hover,.box6:hover{
+    transform: scale(0.9);
+    transition: transform .9s;
+}
+/* --------------------------------------------------Section7--------------------------------------------------------------------------- */
+.section7{
+    position: relative;
+}
+.massage-image{
+    height: 50px;
+    width: 60px;
+    position: absolute;
+    z-index: -1;
+    left: 60px;
+    bottom: -80px;
+}
+.massage-image1{
+    height: 50px;
+    width: 90px;
+    position: absolute;
+    z-index: -1;
+    left: 150px;
+    bottom: -115px;
+}
+.massage-image2{
+    height: 50px;
+    width: 60px;
+    position: absolute;
+    z-index: -1;
+    left: 290px;
+}
+.massage-image3{
+    height: 50px;
+    width: 90px;
+    position: absolute;
+    z-index: -1;
+    top: 60px;
+    right: 40px;
+}
+/* --------------------------------------------------Section8--------------------------------------------------------------------------- */
+.section9-logo .core_value_circle{
+    height: 74px;
+    width: 74px;
+    position: absolute;
+    left: -20px;
+    top: -20px;
+    z-index: -1;
+}
+.section9-logo h1{
+    position: relative;
+}
+.section9-logo {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.section9-logo img{
+    height: 50px;
+    width: 170px;
+}
+.section9-logo h1{
+    color: #21047C;
+    font-size: 35px;
+    font-family: Poppins-Bold;
+}
+.parental{
+    display: flex;
+    justify-content: center;
+}
+.parental p{
+    font-family: Poppins-Regular;
+    font-size: 16px;
+    padding: 10px;
+}
+.big_box{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+.big_box1{
+    width: 300px;
+    box-shadow: 3px 2px 6px 0px rgb(0 0 0 / 10%);
+    border: 1px solid white;
+    transition: 0.3s;
+    border-radius: 15px;
+    padding: 25px 30px;
+    margin: 10px 15px;
+    display: flex;
+    flex-direction: column;
+}
+.blue{
+
+    height: 80px;
+    width: 90px;
+    background-color: #21047C;
+    display: flex;
+    justify-content: center;
+    border-radius: 12px;
+    margin: 20px 0px;
+}
+.blue img{
+    margin-top: 15px;
+    height: 50px;
+    width: 50px;
+}
+.light_blue{
+    height: 80px;
+    width: 90px;
+    background-color: #45AFDF;
+    display: flex;
+    justify-content: center;
+    border-radius: 12px;
+    margin: 20px 0px;
+}
+.light_blue img{
+    margin-top: 15px;
+    height: 50px;
+    width: 50px;
+}
+.mehroon{
+    height: 80px;
+    width: 90px;
+    background-color: #FF0074;
+    display: flex;
+    justify-content: center;
+    border-radius: 12px;
+    margin: 20px 0px;
+}
+.mehroon img{
+    margin-top: 15px;
+    height: 50px;
+    width: 50px;
+}
+.big_box1 h5{
+    font-family: poppin-semiBold;
+}
+.big_box1 p{
+    font-family: Poppins-Regular;
+}
+/* --------------------------------------------------Section10--------------------------------------------------------------------------- */
+.world{
+    display: flex;
+    position: relative;
+}
+.world img{
+    height: 700px;
+    width: 1100px;
+    position: absolute;
+    z-index: -1;
+    margin-top: 70px;
+}
+.test{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.test1{
+    display: flex;
+    justify-content: end;
+    margin-top: 40px;
+}
+.test2{
+    margin-top: 20px;
+}
+/* .Testimonial-box-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+} */
+.Testimonial-box{
+    width: 500px;
+    box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 15px;
+    border-radius: 20px;
+}
+.profile-image{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 5px;
+}
+.profile-image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.profile{
+    display: flex;
+    align-items: center;
+}
+.name-user{
+    display: flex;
+    flex-direction: column;
+}
+.name-user strong{
+    color: #21047C;
+    font-size: 1.1rem;
+    letter-spacing: 0.05px;
+    font-family: poppin-semiBold;
+}
+.name-user span{
+    color: black;
+    font-size: 0.8rem;
+    font-family: Poppins-Regular;
+}
+.Reviews{
+    color: yellow;
+}
+.box-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.clint-comments p{
+    font-family: Poppins-Regular;
+}
+.testimonial-button img{
+    height: 15px;
+    width: 20px;
+    margin: 13px 0px 0 13px
+}
+/* --------------------------------------------------Section11--------------------------------------------------------------------------- */
+.formimage{
+    margin-top: 100px;
+}
+.formimage .form-massage-image{
+    height: 280px;
+    width: 450px;
+}
+.form-content{
+    position: relative;
+}
+.form-content .form_circle_image{
+    height: 74px;
+    width: 74px;
+    position: absolute;
+    z-index: -1;
+    top: -30px;
+    right: 120px;
+}
+.formstyle{
+    margin-top: 20px;
+    height: 250px;
+    background-color: #F7FAFE;
+}
+.inputcolor{
+    background-color: #F7FAFE;
+}
+.form-content h1{
+    font-family: Poppins-Bold;
+    color: #21047C;
+    font-size: 35px;
+}
+.form-content p{
+    font-family: Poppins-Regular;
+    font-size: 16px;
+}
+.button-last {
+    background-color: #21047C;
+    height: 50px;
+    min-width: 190px;
+    border: 1px solid #21047C;
+    border-radius: 5px;
+    color: white;
+    font-size: 18px;
+    font-family: Poppins-Regular;
+}
+.button-last a{
+    text-decoration: none;
+    color: white;
+}
+/* --------------------------------------------------Section12--------------------------------------------------------------------------- */
+.Subscribe{
+    width: 350px;
+    margin-top: 30px;
+}
+.Subscribe .form-control {
+    min-height: 52px;
+}
+.Subscribe .form-control , .Subscribe button {
+    border-color: #21047C;
+}
+.Subscribe button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.email_button{
+    width: 80px;
+    background-color: #21047C;
+}
+.email_button img{
+    height: 20px;
+}
+/* --------------------------------------------------Section11--------------------------------------------------------------------------- */
+
+/*new letter*/
+
+/*sub footer*/
+.sub_footer .sub_footer_content img {
+    height: 60px;
+    width: 260px;
+    object-fit: fill;
+}
+.sub_footer .sub_footer_content p{
+    font-size: 16px;
+    font-family: Poppins-Regular;
+    color: #000000;
+    padding-top: 15px;
+    margin: 0;
+}
+.sub_footer .links h4 {
+    font-size: 18px;
+    font-family: Poppins-Bold;
+    color: #21047C;
+    /*padding-left: 50px;*/
+    margin-bottom: 25px;
+}
+.sub_footer .links ul {
+    padding: 0;
+    margin: 0;
+}
+.sub_footer .links ul li{
+    margin: 0 0 15px 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.sub_footer .links ul li:last-child{
+    margin-bottom: 0;
+}
+.sub_footer .links ul li a{
+    font-size: 16px;
+    font-family: Poppins-Regular;
+    color: #000000;
+    margin-bottom: 0;
+    text-decoration: none;
+}
+.sub_footer .links ul li a img {
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    margin-right: 15px;
+}
+/*footer*/
+.footer {
+    border-top: solid #000000 0.75px;
+    padding: 10px 0;
+}
+.footer p {
+    margin: 0;
+    font-family: Poppins-Regular;
+    font-size: 15px;
+}
+
+@media (max-width: 767px) {
+
+
+    .section {
+        padding: 50px 0;
+    }
+    .section .section-content .start-small-circle{
+        height: 40px;
+        width: 40px;
+        top: -10px;
+        left: -10px;
+    }
+    .section .section-content .end-small-circle{
+        height: 40px;
+        width: 40px;
+        position: absolute;
+        z-index: -1;
+        top: -10px;
+        right: -10px;
+    }
+    .section .section-content h1 {
+        font-size: 24px;
+    }
+    .section .section-content p {
+        font-size: 14px;
+        margin: 15px 0 0 0;
+    }
+    .margin-left-50 {
+        margin-left: 0;
+        margin-top: 50px;
+    }
+    .margin-right-50 {
+        margin-right: 0;
+        margin-bottom: 50px;
+    }
+    /* --------------------------------------------------NAVBAR--------------------------------------------------------------------------- */
+    .header-background-image{
+        min-width: 250px;
+        height: 480px;
+        width: 100%;
+    }
+    .navbar .navbar-brand img {
+        height: 35px;
+        width: 155px;
+        object-fit: fill;
+    }
+    /* --------------------------------------------------Section1--------------------------------------------------------------------------- */
+
+    .header-section-content-container {
+        padding: 50px 0;
+    }
+    .header-section-content-container .header-section-content {
+        margin-bottom: 50px;
+    }
+    .header-section-content-container .header-section-content h1 {
+        font-size: 24px;
+    }
+    .header-section-content-container .header-section-content p {
+        margin: 15px 0;
+        font-size: 16px;
+    }
+    .header-section-content-container .header-section-content .button {
+        background-color: #21047C;
+        height: 40px;
+        min-width: 150px;
+        border: 1px solid #21047C;
+        border-radius: 5px;
+        color: white;
+        font-size: 16px;
+        font-family: Poppins-Regular;
+    }
+    .header-section-content-container .header-section-image img {
+        min-width: 200px;
+        max-width: 400px;
+        width: 100%;
+
+    }
+
+    .section1-left-heading{
+        margin-top: 30px;
+        font-size: 17px;
+    }
+    .section1-left-peragraph{
+        font-size: 15px;
+        margin-top: 0px;
+    }
+
+    .section1-ride-image{
+        min-width: 200px;
+        max-width: 400px;
+        margin-top: 26px;
+        height: 200px;
+        width: 90%;
+        height: 100%;
+        display: flex;
+        margin: 25px auto 0;
+    }
+    .button{
+        height: 40px;
+        width: 140px;
+        margin-top: 0px;
+        font-size: 15px;
+    }
+    /* --------------------------------------------------Section2-------------------------------------------------------------------------- */
+    .div_margin_top {
+    margin: 100px auto 0;
+    }
+    .Section2-right-side-image .squre {
+        width: 100%;
+        height: 350px;
+        max-width: 300px;
+        margin: auto;
+    }
+    .Section2-right-side-image .circle-image {
+        right: 0;
+        top: -100px;
+        height: 150px;
+        width: 150px;
+    }
+    .Section2-right-side-image .male-image {
+        left: -120px;
+        object-fit: contain;
+        height: auto;
+        width: 300px;
+        margin: 0;
+    }
+    .Section2-right-side-image .female-image {
+        right: 0;
+        object-fit: contain;
+        height: auto;
+        width: 160px;
+        margin: 0;
+    }
+    .gethikma {
+        margin-top: 0px;
+    }
+    .gethikma .small-circle{
+        height: 60px;
+        width: 60px;
+        margin-top: 30px;
+        margin-left: 0;
+    }
+    .gethikma h1{
+        margin-top: 50px;
+        font-size: 25px;
+        margin-left: 20px;
+    }
+    .gethikma .hikma-logo {
+        height: 45px;
+        width: 145px;
+    }
+    .gethikma p{
+        margin-left: 0;
+    }
+    .gethikma a{
+        margin-left: 0;
+    }
+     /* --------------------------------------------------Section3------------------------------------------------------------------------- */
+    .our-mission{
+        display: none;
+    }
+    .Section3-heading h1{
+        font-size: 25px;
+    }
+    .Section3-heading p{
+        font-size: 9px;
+    }
+    /* --------------------------------------------------Section4--------------------------------------------------------------------------- */
+    .Section4-rghit-image .purple-circle1 {
+        display: none;
+    }
+    .purple-circle{
+        display: none;
+    }
+    .Section4-rghit-image .mobile-image1{
+        width: 100%;
+        height: 350px;
+        object-fit: contain;
+    }
+    .section-content .right-image .Check-image{
+        height: 20px;
+        width: 20px;
+        /* margin: 15px 0px; */
+    }
+    .section-content .right-contect p{
+        font-family: Poppins-Regular;
+        font-size: 13px;
+        margin: 10px 19px;
+    }
+    .section-content .hikma-logo {
+        height: 40px;
+        width: 103px;
+    }
+    .markiting-logo .logo1 .apple-logo {
+        height: 50px;
+        width: 140px;
+    }
+    .markiting-logo .logo2 .apple-logo {
+        height: 50px;
+        width: 120px;
+    }
+    /* --------------------------------------------------Section4--------------------------------------------------------------------------- */
+    .box1{
+        height: 130px;
+        width: 135px;
+    }
+    .box1 img{
+        right: 15px;
+        top: 35px;
+        height: 60px;
+        width: 70px;
+    }
+    .box1 h6{
+        font-size: 12px;
+    }
+    .box2{
+        height: 130px;
+        width: 135px;
+    }
+    .box2 img{
+        right: 15px;
+        top: 35px;
+        height: 60px;
+        width: 70px;
+    }
+    .box2 h6{
+        font-size: 12px;
+    }
+    .box3{
+        height: 130px;
+        width: 135px;
+    }
+    .box3 img{
+        right: 15px;
+        top: 35px;
+        height: 60px;
+        width: 70px;
+    }
+    .box3 h6{
+        font-size: 12px;
+    }
+    .box4{
+        height: 130px;
+        width: 135px;
+    }
+    .box4 img{
+        right: 15px;
+        top: 35px;
+        height: 60px;
+        width: 70px;
+    }
+    .box4 h6{
+        font-size: 12px;
+    }
+     /* --------------------------------------------------Section8--------------------------------------------------------------------------- */
+    .top-767-magin{
+        margin-top: 70px;
+    }
+    .box5{
+        height: 130px;
+        width: 135px;
+    }
+    .box5 img{
+        right: 15px;
+        top: 35px;
+        height: 60px;
+        width: 70px;
+    }
+    .box5 h6{
+        font-size: 12px;
+    }
+    .box6{
+        height: 130px;
+        width: 135px;
+        top: 0;
+    }
+    .box6 img{
+        right: 15px;
+        top: 35px;
+        height: 60px;
+        width: 70px;
+    }
+    .box6 h6{
+        font-size: 12px;
+    }
+    .massage-image {
+        display: none;
+    }
+    .massage-image1 {
+        display: none;
+    }
+    .massage-image2 {
+        display: none;
+    }
+    .massage-image3 {
+        display: none;
+    }
+    /* --------------------------------------------------Section9--------------------------------------------------------------------------- */
+    .section9-logo .core_value_circle {
+        height: 50px;
+        width: 50px;
+        left: -10px;
+        top: -5px;
+    }
+    .section9-logo img {
+        height: 50px;
+        width: 140px;
+    }
+    .parental p {
+        font-size: 14px;
+    }
+    /* --------------------------------------------------Section10--------------------------------------------------------------------------- */
+    .big_box1 {
+        width: 100%;
+        padding: 25px 30px;
+        margin: 10px 0;
+    }
+    .world img{
+        display: none;
+    }
+    .Testimonial-box {
+        width: 100%;
+        padding: 10px;
+        margin: 5px;
+    }
+    /* .test1{
+        display: flex;
+        justify-content: center;
+    }
+    .test2{
+        display: flex;
+        justify-content: center;
+    } */
+     /* --------------------------------------------------Section11--------------------------------------------------------------------------- */
+    .news-letter .input-group {
+        width: 100%;
+    }
+    /* .sub_footer {} */
+    .sub_footer .links {
+        margin-top: 25px;
+    }
+    .footer p {
+        font-size: 11px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+
+
+    .section {
+        padding: 50px 0;
+    }
+    .section .section-content .start-small-circle{
+        height: 60px;
+        width: 60px;
+        top: -20px;
+        left: -20px;
+    }
+    .section .section-content .end-small-circle{
+        height: 60px;
+        width: 60px;
+        position: absolute;
+        z-index: -1;
+        top: -20px;
+        right: -20px;
+    }
+    .section .section-content h1 {
+        font-size: 24px;
+    }
+    .section .section-content p {
+        font-size: 14px;
+        margin: 15px 0 0 0;
+    }
+    .margin-left-50 {
+        margin-left: 0;
+        margin-top: 50px;
+    }
+    .margin-right-50 {
+        margin-right: 0;
+        margin-bottom: 50px;
+    }
+
+       /* --------------------------------------------------NAVBAR--------------------------------------------------------------------------- */
+   .header-background-image{
+        min-width: 740px;
+        height: 640px;
+        width: 100%;
+    }
+    .navbar-brand img {
+        height: 56px;
+        width: 230px;
+    }
+    /* --------------------------------------------------Section1--------------------------------------------------------------------------- */
+    .header-section-content-container {
+        padding: 50px 0;
+    }
+    .header-section-content-container .header-section-content {
+        margin-bottom: 50px;
+    }
+    .header-section-content-container .header-section-content h1 {
+        font-size: 24px;
+    }
+    .header-section-content-container .header-section-content p {
+        margin: 15px 0;
+        font-size: 16px;
+    }
+    .header-section-content-container .header-section-content .button {
+        background-color: #21047C;
+        height: 40px;
+        min-width: 150px;
+        border: 1px solid #21047C;
+        border-radius: 5px;
+        color: white;
+        font-size: 16px;
+        font-family: Poppins-Regular;
+    }
+
+    .header-section-content-container .header-section-image img {
+        /* height: 400px; */
+        min-width: 200px;
+        max-width: 400px;
+        width: 100%;
+    }
+    /* --------------------------------------------------Section2--------------------------------------------------------------------------- */
+    .div_margin_top {
+        margin: 165px auto 0;
+    }
+    .gethikma{
+        margin-top: 0;
+    }
+    .Section2-right-side-image .squre {
+            width: 100%;
+            height: 350px;
+            max-width: 300px;
+            margin: auto;
+    }
+    .Section2-right-side-image .circle-image {
+            right: 0;
+            top: -100px;
+            height: 150px;
+            width: 150px;
+    }
+    .Section2-right-side-image .male-image {
+            left: -120px;
+            object-fit: contain;
+            height: auto;
+            width: 300px;
+            margin: 0;
+    }
+    .Section2-right-side-image .female-image {
+            right: 0;
+            object-fit: contain;
+            height: auto;
+            width: 160px;
+            margin: 0;
+    }
+    .gethikma .small-circle{
+            height: 60px;
+            width: 60px;
+            margin-top: 30px;
+            margin-left: -15;
+    }
+    .gethikma h1{
+            margin-top: 50px;
+            font-size: 25px;
+            /* margin-left: 20px; */
+    }
+    .gethikma .hikma-logo {
+            height: 45px;
+            width: 145px;
+    }
+    .gethikma p{
+            margin-left: 0;
+    }
+    .gethikma a{
+            margin-left: 0;
+    }
+    /* --------------------------------------------------Section3--------------------------------------------------------------------------- */
+    .top_margin {
+            margin-top: 0px;
+    }
+    .our-mission {
+            margin-top: -30px;
+    }
+    .Section3-heading h1 {
+            font-size: 35px;
+            margin-bottom: 10px;
+    }
+    .Section3-heading p {
+            font-size: 20px;
+    }
+    /* --------------------------------------------------Section4--------------------------------------------------------------------------- */
+    .Section4-rghit-image .purple-circle1 {
+        height: 60px;
+        width: 60px;
+        right: -24px;
+        top: 145px;
+    }
+    .purple-circle{
+        left: -20px;
+        top: 15px;
+    }
+    .Section4-rghit-image .mobile-image1{
+        width: 100%;
+        height: 375px;
+    }
+    .section-content .right-image .Check-image{
+        height: 20px;
+        width: 20px;
+        /* margin: 15px 0px; */
+    }
+    .section-content .right-contect p{
+        font-family: Poppins-Regular;
+        font-size: 13px;
+        margin: 10px 19px;
+    }
+    .section-content .hikma-logo {
+        height: 45px;
+        width: 140px;
+    }
+    .markiting-logo .logo1 .apple-logo {
+        height: 50px;
+        width: 140px;
+    }
+    .markiting-logo .logo2 .apple-logo {
+        height: 50px;
+        width: 120px;
+    }
+    /* --------------------------------------------------Section5--------------------------------------------------------------------------- */
+    .box1{
+            height: 130px;
+            width: 160px;
+    }
+    .box1 img{
+            right: 15px;
+            top: 35px;
+            height: 60px;
+            width: 70px;
+    }
+    .box1 h6{
+            font-size: 12px;
+    }
+    .box2{
+            height: 130px;
+            width: 160px;
+    }
+    .box2 img{
+            right: 15px;
+            top: 35px;
+            height: 60px;
+            width: 70px;
+    }
+    .box2 h6{
+            font-size: 12px;
+    }
+    .box3{
+            height: 130px;
+            width: 160px;
+    }
+    .box3 img{
+            right: 15px;
+            top: 35px;
+            height: 60px;
+            width: 70px;
+    }
+    .box3 h6{
+            font-size: 12px;
+    }
+    .box4{
+            height: 130px;
+            width: 160px;
+    }
+    .box4 img{
+            right: 15px;
+            top: 35px;
+            height: 60px;
+            width: 70px;
+    }
+    .box4 h6{
+            font-size: 12px;
+    }
+    /* --------------------------------------------------Section7--------------------------------------------------------------------------- */
+    .box5{
+        height: 110px;
+        width: 150px;
+    }
+    .box5 img{
+        right: 15px;
+        top: 35px;
+        height: 60px;
+        width: 70px;
+    }
+    .box5 h6{
+        font-size: 12px;
+    }
+    .box6{
+        height: 100px;
+        width: 150px;
+        top: 130px;
+    }
+    .box6 img{
+        right: 15px;
+        top: 35px;
+        height: 60px;
+        width: 70px;
+    }
+    .box6 h6{
+        font-size: 12px;
+    }
+    .massage-image {
+        left: 10px;
+    }
+    .massage-image1 {
+        left: 65px;
+        bottom: -130px;
+    }
+    .massage-image2 {
+        left: 250px;
+    }
+    .massage-image3 {
+        right: 65px;
+    }
+    /* --------------------------------------------------Section9--------------------------------------------------------------------------- */
+    .core_value .core_value_circle {
+        left: 170px;
+        top: -15px;
+    }
+    .world img {
+        width: 95%;
+    }
+    /* --------------------------------------------------Section11--------------------------------------------------------------------------- */
+
+    /* --------------------------------------------------Section12--------------------------------------------------------------------------- */
+    .news-letter .input-group {
+        width: auto;
+        max-width: 400px;
+    }
+    /* .sub_footer {} */
+    .sub_footer .links {
+        margin-top: 25px;
+    }
+    .footer p {
+        font-size: 12px;
+    }
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+    .section {
+        padding: 50px 0;
+    }
+    .section .section-content .start-small-circle{
+        height: 60px;
+        width: 60px;
+        top: -20px;
+        left: -20px;
+    }
+    .section .section-content .end-small-circle{
+        height: 60px;
+        width: 60px;
+        position: absolute;
+        z-index: -1;
+        top: -20px;
+        right: -20px;
+    }
+    .section .section-content h1 {
+        font-size: 28px;
+    }
+    .section .section-content p {
+        font-size: 14px;
+        margin: 15px 0 0 0;
+    }
+    .margin-left-50 {
+        margin-left: 25px;
+    }
+    .margin-right-50 {
+        margin-right: 25px;
+    }
+    /* --------------------------------------------------NAVBAR--------------------------------------------------------------------------- */
+       .header-background-image{
+            min-width: 975px;
+            height: 840px;
+            width: 100%;
+        }
+        .navbar-brand img {
+            height: 60px;
+            width: 250px;
+        }
+        /* --------------------------------------------------Section1--------------------------------------------------------------------------- */
+        .section1-left-heading{
+              margin-top: 60px;
+        }
+        .section1-ride-image {
+            margin-top: 60px;
+            height: 325px;
+            width: 325px;
+        }
+         /* --------------------------------------------------Section2--------------------------------------------------------------------------- */
+         .Section2-right-side-image .squre {
+            width: 550px;
+        }
+        .Section2-right-side-image .circle-image {
+            right: -90px;
+        }
+         .gethikma .hikma-logo {
+            height: 50px;
+            width: 150px;
+        }
+        /* --------------------------------------------------Section3--------------------------------------------------------------------------- */
+        .our-mission {
+            margin-top: -60px;
+        }
+        .Section3-heading h1 {
+            font-size: 35px;
+            margin: 25px 0;
+        }
+        .Section3-heading p {
+            font-size: 25px;
+        }
+        .Section4-rghit-image .purple-circle {
+            height: 70px;
+            width: 70px;
+            z-index: -1;
+            left: 30px;
+            top: 20px;
+        }
+        /* --------------------------------------------------Section4--------------------------------------------------------------------------- */
+        .Section4-rghit-image .purple-circle1 {
+            height: 70px;
+            width: 70px;
+            right: 25px;
+            top: 140px;
+        }
+        .purple-circle{
+            left: -20px;
+            top: 15px;
+        }
+        .Section4-rghit-image .mobile-image1{
+            width: 100%;
+            height: 375px;
+            object-fit: contain;
+        }
+        .section-content .right-image .Check-image{
+            height: 20px;
+            width: 20px;
+            /* margin: 15px 0px; */
+        }
+        .section-content .right-contect p{
+            font-family: Poppins-Regular;
+            font-size: 13px;
+            margin: 10px 19px;
+        }
+        .section-content .hikma-logo {
+            height: 45px;
+            width: 140px;
+        }
+        .markiting-logo .logo1 .apple-logo {
+            height: 50px;
+            width: 140px;
+        }
+        .markiting-logo .logo2 .apple-logo {
+            height: 50px;
+            width: 120px;
+        }
+         /* --------------------------------------------------Section5--------------------------------------------------------------------------- */
+            .box1{
+                height: 130px;
+                width: 190px;
+            }
+            .box1 img{
+                right: 15px;
+                top: 29px;
+                height: 70px;
+                width: 90px;
+            }
+            .box1 h6{
+                font-size: 15px;
+            }
+            .box2{
+                height: 130px;
+                width: 190px;
+            }
+            .box2 img{
+                right: 15px;
+                top: 29px;
+                height: 70px;
+                width: 90px;
+            }
+            .box2 h6{
+                font-size: 15px;
+            }
+            .box3{
+                height: 130px;
+                width: 190px;
+            }
+            .box3 img{
+                right: 15px;
+                top: 29px;
+                height: 70px;
+                width: 90px;
+            }
+            .box3 h6{
+                font-size: 15px;
+            }
+            .box4{
+                height: 130px;
+                width: 190px;
+            }
+            .box4 img{
+                right: 15px;
+                top: 29px;
+                height: 70px;
+                width: 90px;
+            }
+            .box4 h6{
+                font-size: 15px;
+            }
+             /* --------------------------------------------------Section6--------------------------------------------------------------------------- */
+             .box5 {
+                height: 150px;
+                width: 210px;
+            }
+            .box6 {
+                height: 150px;
+                width: 210px;
+                top: 0;
+            }
+            .massage-image {
+                left: 20px;
+            }
+            .massage-image1 {
+                left: 120px;
+            }
+            .massage-image2 {
+                left: 280px;
+                bottom: -75px;
+            }
+            .massage-image3 {
+                display: none;
+            }
+             /* --------------------------------------------------Section9--------------------------------------------------------------------------- */
+
+            /* --------------------------------------------------Section10--------------------------------------------------------------------------- */
+            .big_box1 {
+                width: 280px;
+            }
+            /* .Testimonials_circle {
+                right: 315px;
+            } */
+            .world img {
+                width: 95%;
+            }
+             /* --------------------------------------------------Section11--------------------------------------------------------------------------- */
+
+             .sub_footer .sub_footer_content img {
+                width: 100%;
+                height: auto;
+                object-fit: contain;
+            }
+            .sub_footer .sub_footer_content p {
+              font-size: 14px;
+            }
+            .footer p {
+               font-size: 12px;
+           }
+
+}
+@media (min-width: 1201px) and (max-width: 1400px) {
+
+}
+
+
+
